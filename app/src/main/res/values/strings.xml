@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Wishster</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="read_file">This app needs access to your file storage so that it can read photos.</string>
+    <string name="baseurl">https://domax.xyz/wishsterapp/api/</string>
+    <string name="SESSION">session</string>
+
+
+</resources>

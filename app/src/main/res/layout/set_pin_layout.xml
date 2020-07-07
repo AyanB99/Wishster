@@ -1,0 +1,114 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/cont1"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:fontFamily="@font/usea"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Verification"
+            android:layout_marginTop="100dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="18sp"/>
+        <ImageView
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/smile"/>
+        <TextView
+            android:fontFamily="@font/usea"
+            android:text="Enter the verification code we just sent you on your eamil address"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="16sp"/>
+
+        <com.alimuzaffar.lib.pin.PinEntryEditText
+
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="50dp"
+            android:id="@+id/txt_pin_entry"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:cursorVisible="false"
+            android:digits="1234567890"
+            android:inputType="number"
+            android:maxLength="4"
+            android:textIsSelectable="false"
+            android:textSize="20sp"
+            android:textColor="#000000"
+            android:background="#000000"
+
+            app:pinAnimationType="popIn" />
+        <TextView
+            android:text=""
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/usea"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="20dp"
+            android:textColor="@color/red"
+            android:gravity="left"
+            android:textStyle="normal"
+            android:id="@+id/error_txt"
+            />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <TextView
+                    android:text="If you didn’t receive a code!  "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/usea"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    android:textStyle="normal"
+                    android:textSize="16sp"/>
+
+                <TextView
+                    android:id="@+id/re_send_email_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/usea"
+                    android:gravity="center"
+                    android:text=" Resend"
+                    android:textColor="@color/text_color2"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+        <TextView
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/verify_btn"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:background="@drawable/t_login"
+            android:fontFamily="@font/usea"
+            android:gravity="center"
+            android:text="Verify"
+            android:layout_marginTop="20dp"
+            android:textColor="#ffffff"/>
+    </LinearLayout>
+</RelativeLayout>

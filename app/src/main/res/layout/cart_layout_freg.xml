@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_marginTop="?actionBarSize"
+    >
+    <androidx.core.widget.NestedScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/sample"
+                android:layout_height="10dp"
+                android:layout_width="match_parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+
+                xmlns:android="http://schemas.android.com/apk/res/android"
+                xmlns:tools="http://schemas.android.com/tools"
+                android:id="@+id/recyclerView_cart_list"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_below="@+id/cont1"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginBottom="50dp"
+                >
+
+            </androidx.recyclerview.widget.RecyclerView>
+
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <LinearLayout
+        android:padding="0dp"
+        android:background="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_notifications_none_black_24dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_drafts_black_24dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_search_black_24dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:src="@drawable/ic_assignment_black_24dp"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <ImageView
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+
+                />
+        </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>

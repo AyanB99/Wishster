@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/text_color2">
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_alignParentTop="true"
+        android:id="@+id/profile_image_header"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="10dp"
+        android:src="@drawable/profile_image_default"
+        app:civ_border_color="#FF000000"
+        app:civ_border_width="0dp" />
+    <TextView
+        android:id="@+id/title_a"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Biswajit Deb"
+        android:textStyle="bold"
+        android:textColor="#ffffff"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/title_b"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="biswajitdeb9674@gmail.com"
+        android:textStyle="normal"
+        android:textColor="#050505"
+        android:textSize="16sp"/>
+<Space
+    android:layout_width="match_parent"
+    android:layout_height="20dp"/>
+</LinearLayout>

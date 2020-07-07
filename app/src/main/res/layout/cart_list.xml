@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_margin="5dp"
+        >
+
+<androidx.cardview.widget.CardView
+    android:layout_margin="10dp"
+    android:layout_marginBottom="60dp"
+    android:id="@+id/myCardView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="10dp"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true">
+    <ImageView
+        android:layout_gravity="center"
+
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/new_logo"
+        android:id="@+id/profile_icon_friend"
+        />
+
+
+</androidx.cardview.widget.CardView>
+        <TextView
+            android:text="ygyhgfxdfcdfddfdfftftftftftf"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/myCardView"
+            android:id="@+id/friend_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:fontFamily="@font/usea"
+
+            android:textStyle="bold"
+            android:textColor="@color/text_color2"
+            />
+
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

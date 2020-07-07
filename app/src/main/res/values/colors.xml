@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#ffffff</color>
+    <color name="colorPrimaryDark">#ffffff</color>
+    <color name="colorAccent">#00aeef</color>
+    <color name="signupbackground">#f3f2f3</color>
+    <color name="white_opacity">#C8FFFFFF</color>
+    <color name="hint_text_color">#bcb7be</color>
+    <color name="text_color">#000000</color>
+    <color name="text_color2">#00aeef</color>
+    <color name="progress">#ededed</color>
+    <color name="progress2">#FF5722</color>
+    <color name="progress3">#009688</color>
+    <color name="deselectcolor">#acacac</color>
+
+
+    <color name="black">#000000</color>
+
+    <color name="green">#4CAF50</color>
+    <color name="red">#F44336</color>
+    <color name="text_color3">#887f8d</color>
+</resources>

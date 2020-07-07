@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/l_back"
+    >
+
+    <ScrollView
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <LinearLayout
+        android:id="@+id/pan"
+        android:orientation="vertical"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true">
+        <Space
+        android:layout_width="match_parent"
+        android:layout_height="180dp"/>
+
+        <EditText
+
+            android:fontFamily="@font/usea"
+            android:inputType="textEmailAddress"
+            android:singleLine="true"
+            android:id="@+id/emainandphoneno"
+            android:hint="E-mail"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:imeOptions="actionNext"
+            android:background="@drawable/r_corner"/>
+            <TextView
+                android:fontFamily="@font/usea"
+                android:background="#77FFFFFF"
+                android:shadowDx = "-2"
+                android:shadowDy = "-2"
+                android:shadowRadius = "1"
+                android:id="@+id/f1"
+                android:visibility="gone"
+                android:textSize="20sp"
+                android:padding="2dp"
+                android:textColor="#F44336"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=""/>
+        <EditText
+            android:fontFamily="@font/usea"
+            android:imeOptions="actionSend"
+            android:singleLine="true"
+            android:id="@+id/pass"
+            android:inputType="textWebPassword"
+            android:hint="Password"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:background="@drawable/r_corner"/>
+            <TextView
+                android:fontFamily="@font/usea"
+                android:background="#48FFFFFF"
+                android:visibility="gone"
+                android:id="@+id/f2"
+                android:textSize="20sp"
+                android:textColor="#F44336"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Username Must not empty"/>
+        <TextView
+            android:fontFamily="@font/usea"
+            android:id="@+id/fp"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" I forgot my password "
+            android:background="#A12196F3"
+            android:shadowColor = "#2196F3"
+            android:shadowDx = "-2"
+            android:shadowDy = "-2"
+            android:shadowRadius = "1"
+            />
+        <Button
+            android:fontFamily="@font/usea"
+            android:id="@+id/login_btn"
+            android:textColor="#ffffff"
+            android:text="Login"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/edittext_height"
+            android:background="@drawable/r_corner_with_radious_background"
+
+
+            android:textSize="16sp"
+            />
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="80dp"/>
+            <TextView
+                android:fontFamily="@font/usea"
+                android:layout_gravity="center_horizontal"
+                android:gravity="center_horizontal"
+                android:textStyle="bold"
+                android:textColor="#ffffff"
+                android:layout_marginTop="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" Don't you have an account yet? "
+                android:background="#A12196F3"
+                android:shadowColor = "#2196F3"
+                android:shadowDx = "2"
+                android:shadowDy = "2"
+                android:shadowRadius = "1"
+                />
+            <Button
+                android:textSize="16sp"
+                android:fontFamily="@font/usea"
+                android:textColor="#ffffff"
+                android:text="Signup"
+                android:id="@+id/sign_up_btn"
+                android:layout_marginTop="10dp"
+                android:layout_height="@dimen/edittext_height"
+                android:textStyle="bold"
+
+                android:background="@drawable/r_corner_with_radious_background_border"
+                android:layout_width="match_parent"
+                />
+        </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>
+

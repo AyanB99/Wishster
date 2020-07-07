@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="?actionBarSize"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<RelativeLayout
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#ededed"
+    android:id="@+id/main_container"
+    >
+
+
+
+
+    <RelativeLayout
+        android:id="@+id/cont1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:background="@drawable/profile_bodu_header">
+
+
+    </RelativeLayout>
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/profile_image_user"
+        android:layout_width="139dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="250dp"
+        android:src="@drawable/profile_image_default"
+        app:civ_border_color="#f26522"
+
+        app:civ_border_width="2dp" />
+    <RelativeLayout
+        android:layout_below="@+id/cont1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_width="30dp"
+            android:layout_marginTop="10dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_info"
+            />
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_mail"
+            android:layout_alignParentRight="true"
+            />
+    </RelativeLayout>
+<TextView
+    android:fontFamily="@font/usea"
+    android:id="@+id/user_name"
+    android:layout_below="@+id/profile_image_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="18sp"
+    android:gravity="center"
+    android:textStyle="bold"
+    android:layout_centerInParent="true"
+    android:text=""/>
+    <TextView
+    android:fontFamily="@font/usea"
+    android:id="@+id/user_user_country"
+    android:layout_below="@+id/user_name"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:textSize="12sp"
+    android:gravity="center"
+    android:textStyle="normal"
+    android:layout_centerInParent="true"
+    android:text=""/>
+    <LinearLayout
+        android:id="@+id/cont2"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/user_user_country"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="10dp">
+            <TextView
+                android:fontFamily="@font/usea"
+                android:id="@+id/user_influncer"
+                android:layout_below="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="23sp"
+                android:gravity="left"
+                android:layout_gravity="left"
+                android:textStyle="bold"
+                android:textColor="@color/text_color2"
+                android:layout_centerInParent="true"
+                android:text="12000"/>
+            <TextView
+                android:fontFamily="@font/usea"
+                android:layout_below="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="13sp"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:textColor="@color/text_color2"
+                android:layout_centerInParent="true"
+                android:text="Iinfluencers"/>
+        </LinearLayout>
+        <LinearLayout
+
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight=".2"
+            android:padding="10dp">
+            <TextView
+                android:id="@+id/user_followers"
+                android:layout_below="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="23sp"
+                android:fontFamily="@font/usea"
+                android:gravity="left"
+                android:textStyle="bold"
+                android:layout_centerInParent="true"
+                android:textColor="@color/text_color2"
+                android:text="12000"/>
+            <TextView
+                android:fontFamily="@font/usea"
+                android:layout_below="@+id/user_name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textSize="13sp"
+                android:gravity="left"
+                android:textStyle="normal"
+                android:textColor="@color/text_color2"
+                android:layout_centerInParent="true"
+                android:text="Followers"/>
+        </LinearLayout>
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".2"
+            android:padding="10dp">
+            <TextView
+                android:fontFamily="@font/usea"
+                android:layout_centerInParent="true"
+                android:textColor="@color/text_color2"
+                android:text="Connect"
+                android:paddingBottom="2dp"
+                android:textStyle="normal"
+                android:id="@+id/connect"
+                android:layout_gravity="center_vertical"
+                android:gravity="center"
+                android:layout_height="20dp"
+                android:background="@drawable/connect"
+                android:layout_width="match_parent"
+
+                />
+
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_marginBottom="80dp"
+        android:layout_below="@+id/cont2"
+        android:background="#ffffff"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <TextView
+                android:fontFamily="@font/usea"
+                android:gravity="center"
+                android:textColor="@color/text_color2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Profile"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <TextView
+                android:fontFamily="@font/usea"
+                android:gravity="center"
+                android:textColor="@color/text_color2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Stations"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <TextView
+                android:fontFamily="@font/usea"
+                android:gravity="center"
+                android:textColor="@color/text_color2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Influencers"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".1">
+            <TextView
+                android:fontFamily="@font/usea"
+                android:gravity="center"
+                android:textColor="@color/text_color2"
+                android:layout_width="fill_parent"
+                android:layout_height="match_parent"
+                android:text="Publisher"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>
+</androidx.core.widget.NestedScrollView>
+</RelativeLayout>

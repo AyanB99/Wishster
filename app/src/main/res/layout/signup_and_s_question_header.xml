@@ -1,0 +1,29 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:id="@+id/header"
+    android:background="@color/white_opacity"
+    >
+    <ImageView
+        android:padding="10dp"
+        android:src="@drawable/new_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_width="120dp"
+        android:layout_height="120dp"/>
+
+    <TextView
+        android:id="@+id/login_btn"
+        android:layout_width="80dp"
+        android:layout_height="30dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/t_login"
+        android:baselineAligned="false"
+        android:gravity="center"
+        android:text="Login"
+        android:layout_centerVertical="true"
+        android:textColor="#ffffff"/>
+</RelativeLayout>

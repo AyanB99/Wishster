@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "944750989297",
+    "firebase_url": "https://wishster-e9c5a.firebaseio.com",
+    "project_id": "wishster-e9c5a",
+    "storage_bucket": "wishster-e9c5a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:944750989297:android:10b120f6ec6909dfeb3e50",
+        "android_client_info": {
+          "package_name": "com.wishster.view"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "944750989297-otekcvgv9h3lshcm368n5c0i8sm0sv61.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wishster.view",
+            "certificate_hash": "5b876ea274008ea43a7ef4afb24945f46662c2ff"
+          }
+        },
+        {
+          "client_id": "944750989297-k8c8pq6qk07fsbjk4r74s8de7kgtln57.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQGms12AVVXy0DGGWc5jYEZ4dw2VtV_PU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "944750989297-k8c8pq6qk07fsbjk4r74s8de7kgtln57.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -50,8 +50,6 @@
                     android:fontFamily="@font/neue_haas_grotesk_bold_75"
                     android:textColor="@color/text_color3"
                     android:layout_centerVertical="true"
-
-
                     android:gravity="left"
                     android:text="First Name"
                     android:layout_width="0dp"
@@ -60,6 +58,7 @@
                 <EditText
                     android:paddingLeft="@dimen/profile_setting_padding"
                     android:paddingRight="@dimen/profile_setting_padding"
+                    android:id="@+id/et_fname"
                     android:hint="First Name"
                     android:layout_marginRight="10dp"
                     android:layout_gravity="center_vertical"
@@ -82,8 +81,6 @@
                     android:fontFamily="@font/neue_haas_grotesk_bold_75"
                     android:textColor="@color/text_color3"
                     android:layout_centerVertical="true"
-
-
                     android:gravity="left"
                     android:text="Last Name"
                     android:layout_width="0dp"
@@ -92,6 +89,7 @@
                 <EditText
                     android:paddingLeft="@dimen/profile_setting_padding"
                     android:paddingRight="@dimen/profile_setting_padding"
+                    android:id="@+id/et_lname"
                     android:hint="Last Name"
                     android:layout_marginRight="10dp"
                     android:layout_gravity="center_vertical"
@@ -122,6 +120,7 @@
                 <EditText
                     android:paddingLeft="@dimen/profile_setting_padding"
                     android:paddingRight="@dimen/profile_setting_padding"
+                    android:id="@+id/et_uname"
                     android:hint="Username"
                     android:layout_marginRight="10dp"
                     android:layout_gravity="center_vertical"
@@ -160,6 +159,7 @@
                 <EditText
                     android:paddingLeft="@dimen/profile_setting_padding"
                     android:paddingRight="@dimen/profile_setting_padding"
+                    android:id="@+id/et_loc"
                     android:hint="Location"
                     android:layout_marginRight="10dp"
                     android:layout_gravity="center_vertical"
@@ -189,7 +189,7 @@
                     android:textColor="@color/text_color3"
                     />
                 <EditText
-
+                    android:id="@+id/et_self"
                     android:gravity="top|left"
                     android:paddingBottom="@dimen/profile_setting_padding"
                     android:paddingTop="@dimen/profile_setting_padding"
@@ -230,6 +230,7 @@
                 <TextView
                     android:layout_gravity="center_vertical"
                     android:layout_margin="@dimen/profile_setting_margin"
+                    android:id="@+id/tv_save"
                     android:fontFamily="@font/neue_haas_grotesk_bold_75"
                     android:textColor="@color/colorPrimary"
                     android:layout_centerVertical="true"

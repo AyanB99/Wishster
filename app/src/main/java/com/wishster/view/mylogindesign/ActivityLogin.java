@@ -182,6 +182,7 @@ public class ActivityLogin extends AppCompatActivity
                             editor.putString("first_name", jsonObject1.getString("first_name"));
                             editor.putString("last_name", jsonObject1.getString("last_name"));
                             editor.putString("email", jsonObject1.getString("email"));
+                            editor.putString("username", jsonObject1.getString("username"));
                             editor.putString("mobile", jsonObject1.getString("mobile"));
                             editor.putString("country", jsonObject1.getString("country"));
                             editor.putString("state", jsonObject1.getString("state"));
@@ -189,6 +190,11 @@ public class ActivityLogin extends AppCompatActivity
                             editor.putString("postal_code", jsonObject1.getString("postal_code"));
                             editor.putString("birthday", jsonObject1.getString("birthday"));
                             editor.putString("profile_img", jsonObject1.getString("profile_img"));
+                            if (jsonObject1.getString("about_me")==null){
+                                editor.putString("about_me", "");
+                            }else {
+                                editor.putString("about_me", jsonObject1.getString("about_me"));
+                            }
                             editor.putString("created_at", jsonObject1.getString("created_at"));
                             editor.putString("updated_at", jsonObject1.getString("updated_at"));
                             editor.putString("token", token.token);

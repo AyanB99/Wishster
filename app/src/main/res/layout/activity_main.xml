@@ -34,7 +34,7 @@
             android:inputType="textEmailAddress"
             android:singleLine="true"
             android:id="@+id/emainandphoneno"
-            android:hint="E-mail"
+            android:hint="E-mail / mobile no / username"
             android:layout_width="match_parent"
             android:layout_height="@dimen/edittext_height"
             android:imeOptions="actionNext"

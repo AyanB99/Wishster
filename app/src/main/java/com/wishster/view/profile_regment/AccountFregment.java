@@ -35,13 +35,14 @@ public class AccountFregment extends Fragment
     {
         language_spinner=(Spinner)v.findViewById(R.id.language_spinner);
         language=new ArrayList<String>();
+
     }
     private void action()
     {
         language.clear();
         language.add("English(US)");
-        ArrayAdapter<String> dataAdapter2 = new ArrayAdapter<String>(getActivity(), R.layout.spinner_second, language);
-        dataAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        language_spinner.setAdapter(dataAdapter2);
+            ArrayAdapter<String> dataAdapter2 = new ArrayAdapter<String>(getActivity(), R.layout.spinner_second, language);
+            dataAdapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+            language_spinner.setAdapter(dataAdapter2);
     }
 }
